@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Search from './components/Search';
+import Products from './components/Products';
+
+import "./App.css"
+import Card from './components/Card';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+  
+
+  return (<div className='main'>
+    
+    <div><Header/></div>
+    
+    <div><Search/></div>
+    <div className='cardss'>
+      {Products.map((Products) => (
+        <Card
+          key={Products.id}
+          imgUrl={Products.imgUrl}
+          name={Products.name}
+          description={Products.description}
+          btn= "Grab on Amazon"
+          productUrl = {Products.productUrl}
+          price={Products.price}
+        />
+      ))}
+         
+          </div>
+    
+
+  </div>
+    
   );
+  
 }
 
 export default App;
