@@ -1,10 +1,11 @@
 import React from 'react';
 import './Header.css';
+import logo from "./logo.png"
 
 const Header = () => {
   return (
     <div className="header">
-      <img src="https://www.shutterstock.com/image-vector/digital-technology-logo-template-mobile-600w-1029483697.jpg" alt="Logo" className="logo" />
+      <img src={logo}  alt="Logo" className="logo" />
       <nav>
         <ul>
           <li><a href="https://amzn.to/3ITCzF6">Home</a></li>
