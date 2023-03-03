@@ -37,7 +37,7 @@ const Products = [
     {id:'5',
     name:'Smart Watch for Women',
     description:'AGPTEK Smartwatch for Android and iOS Phones IP68 Waterproof Activity Tracker with Full Touch Color Screen Heart Rate Monitor Pedometer Sleep Monitor, Pink, LW11',
-    price:'$$45.99',
+    price:'$45.99',
     imgUrl : ' https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_SX569_.jpg ',
     productUrl : " https://amzn.to/3SteFnq "
     },
@@ -97,19 +97,19 @@ const Products = [
     },
 
     {id:'12',
-    name:'Smart Watch for Men Women Fitness',
-    description:'(Make/Answer Call) Bluetooth Smartwatch for Android Phone iPhone Waterproof Run Sport Digital Watches Blood Pressure Heart Rate Monitor Step Counter Sleep Tracker',
-    price:'$49.99',
-    imgUrl : "https://m.media-amazon.com/images/I/61vXYU1D4WL._AC_SX569_.jpg",
-    productUrl : "https://amzn.to/3Z3xm3y"
+    name:'Robot Vacuum Cleaner',
+    description: "eufy by Anker, BoostIQ RoboVac 30C, Robot Vacuum Cleaner, Wi-Fi, Super-Thin, 1500Pa Suction, Boundary Strips Included, Quiet, Self-Charging Robotic Vacuum, Cleans Hard Floors to Medium-Pile Carpet",
+    price:'$244.82',
+    imgUrl : "https://m.media-amazon.com/images/I/717kye0v4HL._AC_SX679_.jpg",
+    productUrl : "https://amzn.to/3y0Mx1v"
     
     },
     {id:'13',
-    name:'SKG Smart Watch',
-    description:'SKG Smart Watch, Fitness Tracker with 5ATM Swimming Waterproof, Health Monitor for Heart Rate, Blood Oxygen, Sleep, 1.7 inch Touch Screen Bluetooth Smartwatch Fitness Watch for Android-iPhone iOS, V7',
-    price:'$49.99',
-    imgUrl : 'https://m.media-amazon.com/images/I/71JU-bUt-sL._AC_SX425_.jpg',
-    productUrl : " https://amzn.to/3Ky7kRe"
+    name:'ILIFE V9e Robot Vacuum Cleaner',
+    description:'4000Pa Max Suction, Wi-Fi Connected, Works with Alexa, 700ml Large Dustbin, Self-Charging, Customized Schedule, Ideal for Pet Hair, Hard Floor and Low Pile Carpet.',
+    price:'$139.99',
+    imgUrl : 'https://m.media-amazon.com/images/I/612VfnGu4ES._AC_SX679_.jpg',
+    productUrl : " https://amzn.to/3SGyWWq"
     },
 
     {id:'14',
@@ -132,7 +132,7 @@ const Products = [
     {id:'16',
     name:'Smart Watch for Women',
     description:'AGPTEK Smartwatch for Android and iOS Phones IP68 Waterproof Activity Tracker with Full Touch Color Screen Heart Rate Monitor Pedometer Sleep Monitor, Pink, LW11',
-    price:'$$45.99',
+    price:'$45.99',
     imgUrl : ' https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_SX569_.jpg ',
     productUrl : " https://amzn.to/3SteFnq "
     },
@@ -227,7 +227,7 @@ const Products = [
     {id:'27',
     name:'Smart Watch for Women',
     description:'AGPTEK Smartwatch for Android and iOS Phones IP68 Waterproof Activity Tracker with Full Touch Color Screen Heart Rate Monitor Pedometer Sleep Monitor, Pink, LW11',
-    price:'$$45.99',
+    price:'$45.99',
     imgUrl : ' https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_SX569_.jpg ',
     productUrl : " https://amzn.to/3SteFnq "
     },
@@ -322,7 +322,7 @@ const Products = [
     {id:'38',
     name:'Smart Watch for Women',
     description:'AGPTEK Smartwatch for Android and iOS Phones IP68 Waterproof Activity Tracker with Full Touch Color Screen Heart Rate Monitor Pedometer Sleep Monitor, Pink, LW11',
-    price:'$$45.99',
+    price:'$45.99',
     imgUrl : ' https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_SX569_.jpg ',
     productUrl : " https://amzn.to/3SteFnq "
     },
@@ -417,7 +417,7 @@ const Products = [
     {id:'49',
     name:'Smart Watch for Women',
     description:'AGPTEK Smartwatch for Android and iOS Phones IP68 Waterproof Activity Tracker with Full Touch Color Screen Heart Rate Monitor Pedometer Sleep Monitor, Pink, LW11',
-    price:'$$45.99',
+    price:'$45.99',
     imgUrl : ' https://m.media-amazon.com/images/I/71JfGjxM5lL._AC_SX569_.jpg ',
     productUrl : " https://amzn.to/3SteFnq "
     },

@@ -9,6 +9,7 @@ function Search() {
       <div className='call-to-search'>
         <p>Find your best Smart Device here</p>
         <input type="text" placeholder="Search..." />
+        
       </div>
       
       
