@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Search from './components/Search';
 import Products from './components/Products';
 import Card from './components/Card';
+import Footer from './components/Footer';
+
 
 import './App.css';
 
@@ -17,7 +19,7 @@ function App() {
     );
   });
 
-  return (
+  return (<>
     <div className="main">
       <Header />
       <Search setSearchValue={setSearchValue} />
@@ -29,6 +31,7 @@ function App() {
               imgUrl={product.imgUrl}
               name={product.name}
               description={product.description}
+              moredescription={product.moredescription}              
               btn="Grab on Amazon"
               productUrl={product.productUrl}
               price={product.price}
@@ -42,6 +45,9 @@ function App() {
         </div>
       )}
     </div>
+    <Footer />
+
+    </>
   );
 }
 

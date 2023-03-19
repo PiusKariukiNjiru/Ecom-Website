@@ -8,31 +8,27 @@
   height: 270px;
   background-color: orange;
   margin-bottom: 20px;
+  position: relative;
+    
 }
-
-
 .search-container input[type="text"] {
   padding: 10px;
-  border: 1px yellowgreen solid;
-  border-radius: 5px;
-  width: 100%;
-  font-size: 16px;
-  
-}
-
-.search-container button[type="submit"] {
-  background-color: orange;
-  color: white;
   border: none;
-  border-radius: 5px;
-  padding: 10px;
-  margin-left: 10px;
-  cursor: pointer;
+  width: 100%;
   font-size: 16px;
 }
 
 .girls{
-  margin-bottom: -11px;
+  position: absolute;
+  height: 100%;
+  right: 30px;
+  
+}
+.man{
+  position: absolute;
+  
+  height: 100%;
+  left: 30px;
   
 }
 
@@ -68,12 +64,62 @@
   .search-container button[type="submit"] {
     margin-left: 0px;
   }
+  .girls{
+    width: 33%;
+    height: 60%;
+    position: absolute;
+    
+    right: 0px;
+    
+    
+  }
+  .man{
+    width: 23%;
+    height: 60%;
+    position: absolute;
+    
+    
+    left: 1
+    0px;
+  }
+ 
 }
 
-.girls{
-  width: 38%;
+@media screen and (max-width: 860px) {
+  .search-container {
+    height: 150px;
+    font-size: 10px;
+  }
+  
+  .search-container input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  
+  .search-container button[type="submit"] {
+    margin-left: 0px;
+  }
+  .girls{
+    width: 33%;
+    height: 60%;
+    position: absolute;
+    
+    right: 0px;
+    
+    
+  }
+  .man{
+    width: 23%;
+    height: 60%;
+    position: absolute;
+    
+    
+    
+  }
+ 
 }
-.man{
-  width: 23%;
 
-}
+
+
+
