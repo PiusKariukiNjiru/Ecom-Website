@@ -20,11 +20,7 @@
 
   }
   
-  .pagination li a{
-    
-  }
-
-
+ 
   .pagination button {
     background-color: white;
     border: 1px solid gray;
@@ -43,7 +39,7 @@
   
   .pagination .active {
     border: 1.5px solid #f87632;
-    color: white;
+    color: black;
   }
   
   .pagination .disabled {
